@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e809c368-1c5f-4a48-8174-61c02d83bec6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DSA_DP_LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DSA_DP_LeetCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SlidingWindows/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingWindows/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
