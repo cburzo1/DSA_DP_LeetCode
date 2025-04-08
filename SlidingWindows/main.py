@@ -1,28 +1,24 @@
 class Solution(object):
     def findMaxAverage(self, nums, k):
         arr = []
+        j = k
 
-        for i in range(1, len(nums)):
-            #print(i)
+        for i in range(0, len(nums)):
             tot = 0
             avg = 0
-            if i + k - 1 == len(nums):
-                break
-            else:
-                j = i
-                while j <= k:
-                    #print(nums[j])
-                    tot = tot + nums[j]
-                    j = j + 1
+            while i < k:
+                tot = tot + nums[i]
+                i = i + 1
 
-          #print(tot)
-            avg = tot/k
-            #print(avg)
+            avg = tot/j
             arr.append(avg)
 
-        max = 0
+            if k == len(nums):
+                break
+            else:
+                k = k + 1
 
-        print(arr)
+        max = 0
 
         for i in range(0, len(arr)):
             if arr[i] > max:
@@ -32,4 +28,4 @@ class Solution(object):
 
 solution = Solution()
 
-print(solution.findMaxAverage([1,12,-5,-6,50,3], 4))
+print(solution.findMaxAverage([5], 1))
